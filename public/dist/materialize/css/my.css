@@ -1,0 +1,687 @@
+#top_bar{
+background-color:rgb(12, 165, 12);
+height: 64px;
+line-height: 35px;
+box-shadow: none; 
+}
+#cate li a:hover{
+color:white;
+background-color:rgb(12, 165, 12);
+
+}
+.nav{
+    background-color:#fff
+
+}
+nav li a{
+color:#000;
+}
+#electronic{
+    width: 40% !important;
+    color: blue;
+}
+#menf{
+    width:  40% !important;
+    color: blue;
+    
+}
+#homef{
+    width:  40% !important;
+    color: blue;
+}
+#womenf{
+    width:  40% !important;
+    color: blue;
+
+}
+#sport{
+    width:  40% !important;
+    color: rgb(226, 226, 229);
+}
+#daily{
+    width:  40% !important;
+    color:  blue;
+
+}
+#set_elemenu a{
+ padding: 0px;
+ color:  gray;
+ line-height: 25px;
+}
+#set_elemenu a:hover{
+   background: white;
+   color: rgb(12, 165, 12); 
+   }
+   #footer_link li a{
+    color: white;
+    line-height: 30px;
+   }
+   #footer_link li a:hover{
+       color: black;
+    text-decoration: underline;
+    
+   }
+   #social li{
+       display: inline;
+   }
+   #social li a{
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+}
+.collapsible-body{
+  padding: 0px ; 
+}
+.collapsible-header{
+    outline: none;
+    color: gray;
+  }
+  .collapsible{
+   box-shadow: none;  
+  }
+#emobile li a{
+  color: gray;
+  padding-left: 18px;
+  font-size: 14px; 
+  line-height: 30px;
+  display: block; 
+}
+#emobile{
+    border-left: 3px solid blue;
+}
+#mobile_menu li a:hover{
+        background: white;
+        color:rgb(12, 165, 12);
+}
+#search{
+    width: 45%;
+    border: 1px solid white;
+    box-shadow: none;
+    margin-left: 18%;
+    background: white;
+    border-radius: 3px;
+    color: silver;
+}
+#botton-sea{
+   height: 47px;
+   line-height: 35px;
+   color: white;
+   margin-top: -3px;
+   box-shadow: none;
+    background: black;
+    margin-left: -4px;
+    border-radius: 3px
+}
+#msearch{
+    width: 95%;
+    border: 1px solid white;
+    box-shadow: none;
+    background: white;
+    border-radius: 3px;
+    margin-left: 2%;
+    padding: 1px;
+    color: gray;
+}
+ #sea{
+     background: blue;
+     margin-top:-44px;
+     
+ }
+form{
+    display: inline;
+}
+#seller_username{
+    width: 15%;
+    border: 1px solid white;
+    height: 30px; 
+    margin-left: 58%;
+    box-shadow: none;
+    font-size: 15px;
+    background: white;
+    padding-left: 2px;
+    color: silver;
+}
+#seller_password{
+    width: 15%;
+    border: 1px solid white;
+    height: 30px; 
+    margin-left: 1px;
+    box-shadow: none;
+    background: white;
+    padding-left: 2px;
+    font-size: 15px;
+    color: silver;
+}
+#button_seller{
+    height: 33px;
+    background: black;
+    margin-top: -3px;
+    line-height: 30px;
+    
+}
+#email{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+}
+#password{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+}
+#mobile_no{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+   
+}
+#pincode{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+    
+}
+#panumber{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+    
+}
+#gst_no{
+    width: 49%;
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+
+}
+#button_reg{
+background: black;
+}
+#company_name{
+    border: 1px solid silver;
+    height: 40px;
+    border-radius: 3px;
+    box-shadow: none;
+    padding-left: 3px;
+    margin-bottom: 25px;
+    margin-left: -2px;
+    color: gray;
+
+}
+/* input number hide*/
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.box{
+    width: 10%;
+    height: 2px;
+    background: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* medial query section*/
+@media only screen and (max-width: 800px){
+    p{width: 100%;}
+}
+#mbusername{
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: none;
+    padding-left: 3px;
+    margin-bottom: 25px;
+    margin-left: -2px
+}
+#mbpassword{
+    border: 1px solid silver;
+    border-radius: 3px;
+    box-shadow: none;
+    padding-left: 3px;
+    margin-bottom: 25px;
+    margin-left: -2px
+}
+#mbbutton{
+    background: blue;
+    margin-top: -8px;
+}
+#user_profile{
+    width: 20% !important;
+    
+}
+#us li{
+    color:gray;
+}
+#user_profile li a:hover{
+    color:white;
+    background: blue;
+}
+#sell{
+box-shadow:none; 
+background: white;
+border-bottom: 2px solid silver;
+
+}
+#left_menu li a,#right_menu li a{
+    color: gray;
+}
+#left_menu li a:hover{
+    background: blue;
+    color:white;
+}
+#right_menu li a:hover{
+    background: blue;
+    color:white;
+}
+#show_order{
+    width: 15% !important;
+}
+#show_list{
+    width: 15% !important;  
+}
+#show_market{
+    width: 15% !important;
+}
+#box{
+    border: 1px solid blue;
+    border-radius: 3px
+}
+#set_task li a{
+color: gray;
+padding-left: 15px;
+line-height: 30px;
+display: block;
+
+}
+#selling_tool li a, #seller_level li a{
+    padding-left: 15px;
+    line-height: 30px;
+    color: gray;
+    display: block;   
+}
+#feed li a,#feedb li a{
+    color: gray;
+    padding-left: 15px;
+    line-height: 30px;
+    display: block;  
+}
+#set_contact{
+    background:silver;
+    padding: 10px;
+}
+#firstname, #lastname{
+    border: 1px solid gray;
+    line-height: 10px;
+    padding-left: 3px;
+    box-shadow: none;
+    width: 99%;
+    background: white;
+    color: gray;
+}
+select{
+    display: block;
+    border: 1px solid gray;
+}
+#address{
+    border: 1px solid gray;
+    height: 150px;
+    padding-left: 3px;
+    box-shadow: none;
+    width: 100%;
+    background: white;
+    color: gray; 
+}
+#img{
+    width: 80%;
+    height: 80px;
+    border-radius: 100%;
+    border: 2px solid blue !important;
+}
+#display_size,#display_res{
+    width: 25%;
+}
+#operating_system{
+    width:30%;
+}
+#mobile_title,#model_no,#model_name{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 94%;
+    border-radius: 3px;
+    color: gray; 
+}
+
+#mobile_brand{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: gray; 
+    outline:none; 
+    height: 48px;   
+}
+#mobile_brand:focus{
+    border: 1px solid blue;   
+}
+#model_no:focus,#model_name:focus{
+    border: 1px solid blue;   
+}
+/* radio button section start*/
+ [type="radio"]:checked + span:after,  [type="radio"].with-gap:checked + span:after{
+     background: blue; border: 2px solid blue;
+ }
+/*radio button secion end */
+ #rad{
+     margin-top: 40px
+ }
+ #display_size,#display_res,#operating_system{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: gray; 
+    outline:none; 
+    height: 48px;   
+ }
+ #display_size:focus,#display_res:focus,#operating_system:focus{
+     border: 1px solid blue;
+ }
+ #version{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 95%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #processor_size{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 94%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #processor_size:focus{
+    border: 1px solid blue;  
+ }
+ #memory,#internal_storage,#s_ram{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: gray; 
+    outline:none;
+    width: 34%; 
+    height: 48px;   
+ }
+ #memory:focus,#internal_storage:focus,#s_ram:focus{
+     border: 1px solid blue;
+ }
+ #camera,#camera_s{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 95%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #network{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 94%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #network:focus{
+    border: 1px solid blue; 
+ }
+ #battery{
+    border: 1px solid silver;
+    box-shadow: none;
+    padding-left: 5px;
+    width: 94%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #battery:focus{
+    border: 1px solid blue; 
+ }
+ #shipp,#price{
+    border: 1px solid silver;
+    box-shadow: none;
+    width: 34%;
+    border-radius: 3px;
+    color: gray; 
+ }
+ #shipp:focus,#price:focus{
+    border: 1px solid blue; 
+ }
+ #duration,#offers,#return_policy{
+    border: 1px solid silver;
+    border-radius: 3px;
+    color: gray; 
+    outline:none;
+    width: 35%; 
+    height: 48px;   
+ }
+ #duration:focus,#offers:focus,#return_policy:focus{
+     border: 1px solid blue;
+ }
+ #show_img{
+     height: 100px;
+     width: 100px;
+     border: 1px solid silver;
+ }
+ #admin_username, #admin_password{
+     border-bottom: 1px solid blue;
+     box-shadow: none;
+     color: gray;
+ }
+ #admin_username:focus+ label{
+color:blue;
+ }
+ #admin_password:focus+label{
+     color:blue;
+ }
+#product_modal,#brand_modal{
+    outline: none;
+    width: 30%;
+}
+#item_name, #product_name,#product_code,#old_price,#stock,#new_price,#categories,#product_details{
+    box-shadow: none;
+    border-bottom: 1px solid #323e56;
+    color: gray;
+}
+#item_name:focus+label,#product_name:focus+label,#product_code:focus+label
+,#old_price:focus+label,#stock:focus+label,#new_price:focus+label{
+    color: #323e56;
+}
+#item{
+    outline: none;
+    border: 1px solid silver;
+    color: gray;
+}
+#main_box{
+    border: 1px solid silver;
+    background: rgba(51, 22, 218, 0.747);
+}
+#sellers{
+    height:40px;
+    line-height:40px;
+    background:white;
+    box-shadow: none;
+    border-bottom:1px solid silver;
+}
+
+.fixed{
+    position: fixed;
+    top:0; 
+    width: 100%;
+    z-index:500; 
+}
+#thumbnail{
+   min-height: 75px;
+   display: flex;
+   cursor: pointer;
+   align-items: center;
+}
+#thumbnail:hover{
+    border:1px solid blue;
+}
+#thumbs{
+    height: 240px;
+}
+#admin:hover{
+background:  #323e56;
+}
+#category{
+    border:1px solid silver;
+    box-shadow: none;
+    border-radius: 3px;
+   color:gray; 
+   padding: 2px
+}
+#category:hover{
+    border:1px solid #323e56;
+}
+#items,#brand{
+    border:1px solid silver;
+    box-shadow: none;
+    border-radius: 3px;
+   color:gray;
+   width: 95%;
+}
+#items:focus,#cat:focus,#brand:focus{
+    border:1px solid #323e56;
+}
+#cat{
+    border:1px solid silver;
+    box-shadow: none;
+    border-radius: 3px;
+   color:gray;
+   width: 95%;
+}
+#file{
+    width: 94%;
+    color:gray;
+}
+#load{
+    width:40%;
+    color:gray;
+}
+#loa{
+    width:45%;
+    color:gray;
+}
+.myactive{
+    background-color: #323e56 !important;
+	color: white !important;
+	border-color: #323e56 !important;
+}
+.valid{
+    color:red;
+}
+.invalid{
+    border:1px solid red;
+}
+#mage{
+    width:80px;
+}
+#age{
+    width:120px;
+}
+#home_img{
+    height:150px;
+    overflow: hidden;
+   
+}
+#home_img:hover{
+    transform: scale(1.1);
+}
+#tabe{
+border-bottom: none;
+}
+#badge{
+background:black;
+border:1px solid black;
+border-radius:350px;
+color:white;
+}
+#nimage{
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+  margin-top: 30px;
+}
+#dropdown li a{
+ color:gray;
+ 
+}
+#dropdown li a:hover{
+    background:white;
+    color:blue;
+    
+}
+#check{
+    margin-top: -40px;
+}
+#check_color{
+    color:gray;
+}
+#user{
+    margin-top: 60px;
+    text-transform: capitalize;
+    color: gray;
+}
+.order li a{
+    color: gray;
+}
+.order li a:hover{
+    color: #0000ff;
+}
+#slider a img{
+    width: 100%;
+    height: 60vh;
+}
+.polltable{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.polltable table tr{
+    border-bottom:none;
+}
+.nav-wrapper a img{
+    width:18%;
+    height: 10vh;
+}
+
+
+
